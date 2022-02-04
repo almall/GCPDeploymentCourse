@@ -26,7 +26,7 @@ dataset = pd.read_csv(dataset_path, names=column_names,
                       sep=" ", skipinitialspace=True)
 
 
-BUCKET = 'gs://wells-test-classification'
+BUCKET = 'gs://mibucket'
 
 # Por facilitar el ejemplo, quitamos las filas con valores faltantes
 
